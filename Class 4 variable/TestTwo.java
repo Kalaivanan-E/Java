@@ -4,6 +4,7 @@ class Test{
     static int b = 20;     // static variable
 
     public static void m1(){
+        // Local Variabel
         int c = 30;     // local variable scope is with in the method only
         System.out.println(c);
     }
