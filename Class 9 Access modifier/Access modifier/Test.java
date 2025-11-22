@@ -1,6 +1,6 @@
 package pack2;
 import pack1.A;
-// import pack1.B;  it is a default so we can't access outside package
+// import pack1.B;  it is a default class, so we can't access outside package
 
 public class Test {
     public static void main(String[] args) {
