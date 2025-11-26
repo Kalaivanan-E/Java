@@ -48,3 +48,50 @@ class Testthree{
     }
 }
 // 5. Skip prices that are less than 50 using continue.
+
+class Testfour{
+    public static void main(String[] args) {
+        int [] prices = {199,129,98,178,11,171,1055};
+        for (int price : prices){
+            if(price < 50){
+                continue;
+            }
+            else{
+                System.out.println(price);
+            }
+        }
+    }
+}
+
+//6. Find the maximum price in the array.
+
+class Testfive{
+    public static void main(String[] args) {
+        int [] prices = {199,129,98,178,11,171,1055};
+        int largest = 0;
+        for (int price : prices){
+            if(largest<price){
+                largest = price;
+            }
+        }
+        System.out.println(largest);
+
+    }
+}
+
+// 7. Find the minimum price in the array.
+
+class Testsix{
+    public static void main(String[] args) {
+        int [] prices = {199,129,98,178,11,171,1055};
+        int lowest = prices[0];
+        for (int i=0; i< prices.length; i++){
+            
+            if(prices[i]<lowest){
+                lowest = prices[i];
+            }
+        }
+        System.out.println(lowest);
+    }
+
+}
