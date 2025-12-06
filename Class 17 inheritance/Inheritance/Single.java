@@ -5,13 +5,11 @@ class Parent {
     }
 
 }
-
 class Child extends Parent{
     public void m2(){
         System.out.println("Child class m2");
     }
 }
-
 class Test{
     public static void main(String[] args) {
         Child c1 = new Child();
