@@ -1,5 +1,5 @@
 
-import java.util.ArrayList;;
+import java.util.ArrayList;
 class Demo{
     public static void main(String[] args) {
         ArrayList eids = new ArrayList();
