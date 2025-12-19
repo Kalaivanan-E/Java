@@ -1,9 +1,11 @@
 import java.util.*;
+ // UnsupportedOperationException
 
 class Test9 {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3);
-        list.add(4); // UnsupportedOperationException
+        list.add(4);
+        System.out.println("Good Morning");
     }
 }
 
@@ -16,6 +18,6 @@ class Test {
         }catch(Exception e){
             System.out.println(e);
         }
-        
+        System.out.println("Good Morning");
     }
 }
