@@ -23,8 +23,7 @@ class Testtwo{
                 count++;
             }
        }
-       System.out.println(count); // 3
-       
+       System.out.println(count); // 3      
     }
 }
 

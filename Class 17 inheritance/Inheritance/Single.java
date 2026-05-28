@@ -1,4 +1,8 @@
 
+// Inheritance -> it inherit properties and behaviour from one class to another class,
+//                  reusing the existing class functionalities and adding new features
+
+// single inheritance -> it inherit parentclass to child class
 class Parent {
     public void m1(){
         System.out.println("Parent calss - m1 method");

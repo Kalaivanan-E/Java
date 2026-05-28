@@ -1,4 +1,7 @@
 
+
+// Encapsulation -> Binding data and method in a single unit class and restricting the direct access to data
+//                  we achieve encapsulation by using getter and setter.
 class Account{
     private int acc_id;
     private String acc_name;

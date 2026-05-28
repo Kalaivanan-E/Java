@@ -1,5 +1,6 @@
 
 
+// multi level inheritance -> it parent to child and child to sub child
 class GrandParent{
     public void m1(){
         System.out.println("GrandParent class - m1 method");

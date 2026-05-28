@@ -1,4 +1,9 @@
 
+
+// encapsulation = binding data and method in single unit class and restriciting the direct access to the data
+                //    we can achieve encapsulation by using getter and setter and making variable private
+
+
 class BankAccount{
 
     private long accountNumber;
